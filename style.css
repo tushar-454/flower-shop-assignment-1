@@ -118,3 +118,33 @@
 }
 
 /* features style end  */
+
+/* information style start  */
+
+.informationWraper {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 86px 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 128px;
+}
+
+.singleInfoText p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.singleInfo {
+  width: 375px;
+  text-align: center;
+}
+
+.singleInfoIcon {
+  margin-bottom: 24px;
+}
+/* information style end */
