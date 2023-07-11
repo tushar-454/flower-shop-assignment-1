@@ -237,3 +237,29 @@
   font-weight: 400;
 }
 /* footer style end */
+
+/* for bonus part I want to add a nav section and custom section. custom sectin means a customer can an order for his/her own wish  */
+
+/* nav section style  */
+.headerWraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+ul.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul.menu li a {
+  text-decoration: none;
+  color: #e55473;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* nav section end */
