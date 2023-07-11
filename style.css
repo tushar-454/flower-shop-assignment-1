@@ -263,3 +263,59 @@ ul.menu li a {
   font-weight: 600;
 }
 /* nav section end */
+
+/* custom order style start  */
+
+.customOrderForm form input,
+textarea,
+select {
+  width: 100%;
+  padding: 22px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: rgba(39, 39, 39, 0.6);
+  background: #f8f8f8;
+  font-size: 20px;
+  font-weight: 400;
+}
+.customOrderForm form label {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  margin: 20px 0px;
+  display: block;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.name label {
+  width: 100% !important;
+}
+.customOrderForm form input[type='date'] {
+  margin-bottom: 32px;
+}
+.customOrderForm {
+  margin-bottom: 128px;
+}
+.customOrderForm form input[type='radio'] {
+  width: fit-content;
+}
+
+.bou-mate label,
+.size label {
+  font-size: 16px !important;
+  display: inline !important;
+  margin-right: 1rem !important;
+}
+label#bou-mate-label,
+label#sizeLabel {
+  font-size: 20px !important;
+  display: block !important;
+}
+/* custom order style end  */
