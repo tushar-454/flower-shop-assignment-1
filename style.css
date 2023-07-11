@@ -307,7 +307,8 @@ select {
   margin-bottom: 32px;
 }
 .customOrderForm {
-  margin-bottom: 128px;
+  width: 60%;
+  margin: 0 auto 128px;
 }
 .customOrderForm form input[type='radio'] {
   width: fit-content;
