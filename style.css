@@ -201,3 +201,39 @@
   font-weight: 400;
 }
 /* hot deals style end */
+
+/* footer style start  */
+.footer {
+  background: #111010;
+}
+.footerTitleWrap h2 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.footerTitleWrap p {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.footerTitleWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 0px;
+}
+
+.footerTitleWrap small {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* footer style end */
