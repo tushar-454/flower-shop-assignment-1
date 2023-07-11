@@ -20,6 +20,9 @@
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 .title {
   color: #272727;
@@ -171,3 +174,30 @@
   margin-bottom: 128px;
 }
 /* showcase style end */
+
+/* hot deals style start  */
+.latestDealWraper {
+  background-image: url('./Flower_Asset/Rectangle9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 122px 287px;
+  margin-bottom: 128px;
+}
+.latestDealInputForm form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.latestDealInputForm input {
+  width: 100%;
+  padding: 22px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* hot deals style end */
