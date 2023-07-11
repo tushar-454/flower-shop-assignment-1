@@ -155,9 +155,19 @@
   justify-content: space-around;
   align-items: center;
   padding: 100px 0px;
+  margin-bottom: 128px;
 }
 
 .hotDeal {
   background: rgba(229, 84, 115, 0.05);
 }
 /* hot deal style end */
+
+/* showcase style start  */
+.showCaseWraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 128px;
+}
+/* showcase style end */
