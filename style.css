@@ -148,3 +148,16 @@
   margin-bottom: 24px;
 }
 /* information style end */
+
+/* hot deal style start  */
+.hotDealWraper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.hotDeal {
+  background: rgba(229, 84, 115, 0.05);
+}
+/* hot deal style end */
