@@ -24,6 +24,12 @@
   outline: none;
   border: none;
 }
+.secoundary-btn {
+  background: #395d00 !important;
+}
+.third-btn {
+  background: #ae0048 !important;
+}
 .title {
   color: #272727;
   text-align: center;
