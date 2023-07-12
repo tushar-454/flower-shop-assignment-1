@@ -15,7 +15,7 @@ html {
   position: sticky;
   top: 0;
   background: white;
-  margin-top: 1rem;
+  margin: 1rem 0px;
 }
 
 /* common style start  */
@@ -263,7 +263,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0rem;
 }
 
 ul.menu {
