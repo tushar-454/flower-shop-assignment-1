@@ -6,6 +6,18 @@
   font-family: 'Lato', sans-serif;
 }
 
+/* for smooth scrolling  */
+html {
+  scroll-behavior: smooth !important;
+}
+/* for nav sticky  */
+#header {
+  position: sticky;
+  top: 0;
+  background: white;
+  margin: 1rem 0px;
+}
+
 /* common style start  */
 .container {
   width: 75%;
@@ -251,7 +263,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0rem;
 }
 
 ul.menu {
