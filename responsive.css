@@ -1,0 +1,55 @@
+.showCaseWraper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  margin-bottom: 128px;
+  gap: 5rem;
+}
+
+/* common style start  */
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.primary-btn {
+  border-radius: 8px;
+  background: #e55473;
+  display: inline-block;
+  padding: 20px 43px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.secoundary-btn {
+  background: #395d00 !important;
+}
+.third-btn {
+  background: #ae0048 !important;
+}
+.title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.subTitle {
+  color: rgba(39, 39, 39, 0.6);
+  width: 594px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.sectionTitleWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* common style end */
